@@ -1,13 +1,22 @@
+let container = document.getElementById('shapeCanvas');
 
-class Square{
 
+class Shape {
+    constructor(x,y){
+       this.div = document.createElement('div'); 
+     
+    }
+              
 }
-class Rectangle{
-
+class Square extends Shape {
+    constructor()
 }
-class Circle{
-    
+class Rectangle extends Shape {
+    constructor()
 }
-class Triangle{
-
+class Circle extends Shape {
+    constructor()
+}
+class Triangle extends Shape {
+    constructor()
 }

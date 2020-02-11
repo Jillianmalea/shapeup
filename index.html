@@ -1,16 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="shapes.css">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+
 <body>
-    <script src = 'app.js'></script>
-    <script
-  src="https://code.jquery.com/jquery-3.4.1.js"
-  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-  crossorigin="anonymous"></script>
+    <h1>Draw a Shape a Maker</h1>
+    <div id="rectangle">
+
+        <label for='width'></label><input type="text" id="heightInput">Height
+        <label for='width'></label><input type="text" id="heightInput">Width
+        <button type="Input" id='btnInput' value="input">Draw Rectangle</button>
+
+    </div>
+
+    <div id='square'>
+    <label for='Length'></label><input type="text" id="lengthInput">Length
+    <button type="Input" id='btnInput' value="input">Draw Square</button>
+</div>
+
+
+    <div id='circle'>
+    <label for='Radius'></label><input type="text" id="radiusInput">Radius
+    <button type="Input" id='btnInput' value="input">Draw Circle</button>
+</div>
+
+    <div id="triangle">
+    <label for='Height'></label><input type="text" id="heightInput">Height
+    <button type="Input" id='btnInput' value="input">Draw Triangle</button>
+</div>
+
+<div id="shapeCanvas"></div>
+
+<!-- Side navigation -->
+<div class="sidenav">
+    <!-- placeholders for js click function-->
+    <a href="#">Width</a>
+    <a href="#">Height</a>
+    <a href="#">Radius</a>
+    <a href="#">Area</a>
+    <a href="#">Perimeter</a>
+  </div>
+  
+  <!-- Page content -->
+  <div class="main">
+    ...
+  
+
+</div>
+    <script src='app.js'></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 </body>
+
 </html>
